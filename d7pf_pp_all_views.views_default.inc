@@ -46,7 +46,7 @@ function d7pf_pp_all_views_views_default_views() {
   $handler->display->display_options['fields']['title']['field'] = 'title';
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['make_link'] = TRUE;
-  $handler->display->display_options['fields']['title']['alter']['path'] = '/pp/[title]/fields';
+  $handler->display->display_options['fields']['title']['alter']['path'] = '/pp/[title]/';
   $handler->display->display_options['fields']['title']['alter']['replace_spaces'] = TRUE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
