@@ -47,7 +47,7 @@ function d7pf_pp_all_views_views_default_views() {
   $handler->display->display_options['fields']['title']['field'] = 'title';
   $handler->display->display_options['fields']['title']['label'] = '';
   $handler->display->display_options['fields']['title']['alter']['make_link'] = TRUE;
-  $handler->display->display_options['fields']['title']['alter']['path'] = '/pp/[title]/';
+  $handler->display->display_options['fields']['title']['alter']['path'] = 'pp/[title]/';
   $handler->display->display_options['fields']['title']['alter']['replace_spaces'] = TRUE;
   $handler->display->display_options['fields']['title']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['title']['link_to_node'] = FALSE;
@@ -127,10 +127,10 @@ function d7pf_pp_all_views_views_default_views() {
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['header'] = FALSE;
   /* Header: Global: Text area */
-  $handler->display->display_options['header']['text']['id'] = 'area';
+  $handler->display->display_options['header']['text']['id'] = 'text';
   $handler->display->display_options['header']['text']['table'] = 'views';
   $handler->display->display_options['header']['text']['field'] = 'area';
-  $handler->display->display_options['header']['text']['content'] = '<h3><strong><a href="http://ecwknowledgebase.com/pressflow/pp/glossary">Show All Primary Pages</a></strong></h3>
+  $handler->display->display_options['header']['text']['content'] = '<h5><strong><a href="http://ecwknowledgebase.com/pressflow/pp/glossary">Show All Primary Pages</a></strong></h5>
 <br />';
   $handler->display->display_options['header']['text']['format'] = '2';
   $handler->display->display_options['path'] = 'pp/glossary';
